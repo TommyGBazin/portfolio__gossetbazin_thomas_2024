@@ -17,8 +17,10 @@ export default function RootLayout({ children }) {
       <body className={syne.className}>
         <div>
           <nav>+</nav>
-          <main className="grid grid-cols-1 md:grid-cols-2 h-screen">
+          <main className="grid h-screen grid-cols-1 md:grid-cols-[1fr_auto_1fr]">
+            <div className="hidden md:block"></div>
             {children}
+            <div className="hidden md:block"></div>
           </main>
           <footer></footer>
         </div>

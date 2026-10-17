@@ -3,6 +3,7 @@
 import Header from './components/Header';
 import EmailSignature from './components/EmailSignature';
 import Location from './components/Location';
+import Projects from './components/Projects';
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
         <Header />
         <EmailSignature />
         <Location />
+        <Projects />
       </div>
     </section>
   );
